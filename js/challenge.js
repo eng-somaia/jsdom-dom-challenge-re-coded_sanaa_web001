@@ -57,5 +57,6 @@ submitButton.addEventListener("click", e => {
   e.preventDefault();
   let p = document.createElement("p");
   p.innerHTML = commentIpunt.value;
+  commentIpunt.innerHTML ="";
   coommetDisplay.appendChild(p);
 })
